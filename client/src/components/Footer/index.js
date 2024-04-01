@@ -29,8 +29,8 @@ const Footer = () => {
         {/* left */}
         <div className= 'card1 px-1 py-1'> 
           <div className='left'>       
-            <h3>Save even more</h3>
-              <p className='newsLetter-p'>Subscribe for season discounts rewards and travel brochures!</p>
+            <h3>Your Feedback is Greatly Appreciated</h3>
+              <p className='newsLetter-p'>Subscribe for comments and user recommendations to expand our Store</p>
               {/* <p>Email *</p> */}
               <form
                   className="flex-row justify-center justify-space-between-md align-center"
@@ -48,7 +48,7 @@ const Footer = () => {
         {/* middle */}
         <div className="card1 px-1 py-1">
           <div className ='middle'>
-            <h5>You've Made a Great Choice!</h5>           
+            <h5>Thank you For Trusting Us With Your Time and Purchase</h5>           
           </div>
         </div>
         
@@ -56,9 +56,9 @@ const Footer = () => {
         <div className="card1 px-1 py-1">  
           <div className='right'>      
             <h3>CONTACT</h3>
-            <p>999 Example Street, San Francisco CA 99999</p>
-            <p>Bookatour@cruiseship.com</p>
-            <p>Toll Free: 1(800)123-4567</p>  
+            <p>777 Example Street, SAN JOSE 77777</p>
+            <p>BuyFromAmakon@Amakon.com</p>
+            <p>Toll Free: 1(800)987-6543</p>  
           </div>     
         </div>
      </div> 
