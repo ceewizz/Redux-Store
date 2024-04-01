@@ -44,9 +44,9 @@ function CategoryMenu() {
 
   return (
     <div>
-      <h2 style={{ textAlign: 'center' }}>Cruise it like a Star</h2>
-      <p>Choose your favorite Cruise Tour with your love ones and enjoy the time away from all the stress that life brings your, isolate yourself from land and enjoy the fresh air enjoy that wild feelings that all you see around you is the ocean. </p>
-      <h3>Choose your Tour Package:</h3>
+      <h2 style={{ textAlign: 'center' }}>AMAKON</h2>
+      <p>Great shopping Experience. Find everything you need here at one visit. Categories/Items Recommendations are greatly appreciated!</p>
+      <h3>Chose your Categories and Items your Looking For</h3>
       {categories.map((item) => (
         <button 
           key={item._id}
