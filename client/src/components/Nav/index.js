@@ -49,7 +49,7 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="Cruise">🛳️</span> Cruise Tour
+          <span role="img" aria-label="Shop Online">🛍️</span> AMAKON ONLINE STORE
         </Link>
       </h1>
 
