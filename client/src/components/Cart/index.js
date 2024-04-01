@@ -12,7 +12,7 @@ import './style.css';
 
 
 
-const stripePromise = loadStripe('pk_test_51OwcnoRwDCl99wsRX54l2U8TbH2SnGgp4vcyNIIWVZcRZcnT9JWdMO0hhHt7S6NVoE2EGzHIXKuD4QjhyY4GYX27007vGNNcqu');
+const stripePromise = loadStripe('pk_test_51P0t71AxeHUGcLrBmd2yLdkfzVHTxNp6wK6CTPBekciIUzOiEGeI2yto4RG56lklCUVpcxQfrxRyrce4qrF2CSZ300mbuxE5zA');
 
 
 
