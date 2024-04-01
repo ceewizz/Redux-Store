@@ -15,19 +15,19 @@ const items = [
   {
     src: 'https://freeimage.host/i/JjGzlMx',
     altText: '',
-    caption: 'Enjoy great meals while joining us with our awesome Carnival Celebration!',
+    caption: '',
     key: 1,
   },
   {
     src: 'https://freeimage.host/i/JjGzYZb',
     altText: '',
-    caption: 'Enjoy the onboard Swimming pool with movie theater at night while exploring some of the great places in Baja Mexico',
+    caption: '',
     key: 2,
   },
   {
     src: 'https://freeimage.host/i/JjGzcnj',
     altText: '',
-    caption: 'Create unforgettable memories here with the Europe Cruise',
+    caption: '',
     key: 3,
   },
 ];
