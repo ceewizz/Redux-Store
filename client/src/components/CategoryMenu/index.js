@@ -45,8 +45,9 @@ function CategoryMenu() {
   return (
     <div>
       <h2 style={{ textAlign: 'center' }}>AMAKON</h2>
-      <p>Great shopping Experience. Find everything you need here at one visit. Categories/Items Recommendations are greatly appreciated!</p>
-      <h3>Chose your Categories and Items your Looking For</h3>
+      <p>AN ONLINE COMPUTER STORE.</p> 
+      <p>Find everything you need about Computers, Laptop, Desktop, PC Parts Here.</p>
+      <h3>Let us help you! Select what you're looking for below</h3>
       {categories.map((item) => (
         <button 
           key={item._id}
