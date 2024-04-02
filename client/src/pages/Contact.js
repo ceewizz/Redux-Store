@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { BsTelephone } from 'react-icons/bs';
-import aboutImage from "../client/src/pages/about.png";
+import aboutImage from "../client/public/images/about.png";
 
 const Contact = () => {
   const {
