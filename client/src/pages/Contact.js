@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { BsTelephone } from 'react-icons/bs';
-import {aboutImage} from '../client/src/assets/images/about.png';
+
 
 const Contact = () => {
   const {
@@ -81,7 +81,7 @@ const Contact = () => {
                   <br></br>
                   <br></br>
                   <p>WE ARE AN ONLINE COMPUTER STORE, A ONE SPOT WHERE YOU CAN FIND ALL YOUR COMPUTER NEEDS</p>
-                  <img src={aboutImage} style={{ width : "100%"}} alt="About us" />
+                  <img src="" style={{ width : "100%"}} alt="About us" />
                   <br></br>
                   {/* Contact */}
                   <h1>Contact Us</h1>
