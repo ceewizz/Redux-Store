@@ -1,3 +1,5 @@
+import {image} from '../client/images';
+
 const db = require('./connection');
 const { User, Product, Category } = require('../models');
 
@@ -19,17 +21,17 @@ db.once('open', async () => {
 
     const products = await Product.insertMany([
         {
-            name: 'PowerSpec G445 Gaming PC',
+            name: 'desktop',
             category: categories[0]._id,
-            description: 'Intel Core i9 12th Gen 12900K 3.2GHz Processor; NVIDIA GeForce RTX 4070 12GB GDDR6X; 32GB DDR4-3200 RAM; 1TB Solid State Drive',
+            description: 'PowerSpec G445 Gaming PC Intel Core i9 12th Gen 12900K 3.2GHz Processor; NVIDIA GeForce RTX 4070 12GB GDDR6X; 32GB DDR4-3200 RAM; 1TB Solid State Drive',
             image: 'desktop.png',
             price: 1499.00,
             quantity: 20
         },
         {
-            name: 'IBuyPower Y60 Gaming PC',
+            name: 'desktop1',
             category: categories[0]._id,
-            description: 'Intel Core i9 14th Gen 14900KF 2.4GHz Processor; NVIDIA GeForce RTX 4070 Ti SUPER 16GB GDDR6X; 32GB DDR5-5600 RAM; 2TB Solid State Drive',
+            description: 'IBuyPower Y60 Gaming PC Intel Core i9 14th Gen 14900KF 2.4GHz Processor; NVIDIA GeForce RTX 4070 Ti SUPER 16GB GDDR6X; 32GB DDR5-5600 RAM; 2TB Solid State Drive',
             image: 'desktop1.png',
             price: 1999.00,
             quantity: 20
