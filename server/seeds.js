@@ -1,4 +1,4 @@
-import {image} from '../client/images';
+
 
 const db = require('./config/connection');
 const { User, Product, Category } = require('./models');
