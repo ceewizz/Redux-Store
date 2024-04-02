@@ -20,3 +20,18 @@ WHEN I review the way the app dispatches actions
 THEN I find that the app uses Redux instead of the Context API
 
 ### Instruction
+clone repo , type npm install, then type npm run build then npm run develop
+
+### Contributor
+Made my Chris Huynh
+
+
+#### Credits
+
+Microcenter used for images and prices and description as example.
+https://www.microcenter.com/
+
+#### Links
+Github Repo:  https://github.com/ceewizz/Redux-Store
+
+Deploy App: 
