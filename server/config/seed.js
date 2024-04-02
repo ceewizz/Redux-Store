@@ -66,7 +66,7 @@ db.once('open', async () => {
             name: 'Gigabyte AORUS CO49DQ SA 49" 5K WQHD (5210 x 1440) 144Hz Ultrawide Curved Screen Gaming Monitor',
             category: categories[2]._id,
             description: 'AMD FreeSync Premium Pro; HDR; HDMI DisplayPort USB Type-C; Dashboard',
-            image: 'monitor1.jpeg',
+            image: 'monitor1.jpg',
             price: 1099.00,
             quantity: 40   
         },
@@ -74,7 +74,7 @@ db.once('open', async () => {
             name: 'Logitech Keyboard and Mouse Combo',
             category: categories[3]._id,
             description: 'Logitech MX Keys S Combo Low-Profile Wireless Keyboard + MX Master 3S Wireless Mouse - (Black)',
-            image: 'kbmouse.jpeg',
+            image: 'kbmouse.jpg',
             price: 199.00,
             quantity: 50   
         },
