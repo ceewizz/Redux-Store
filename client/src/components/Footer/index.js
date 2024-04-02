@@ -1,6 +1,5 @@
 import React, { useState} from 'react'
-import { useMutation } from '@apollo/client';
-import { ADD_NEWSLETTER } from '../../utils/mutations';
+
 
 
 import './Footer.css'
@@ -9,16 +8,12 @@ import './Footer.css'
 const Footer = () => {
   const [name, setName] = useState('');
   console.log('name', name)
-  const [addNewsletter] = useMutation(ADD_NEWSLETTER);
+
 
   const handleFormSubmit = async (event) => {
     event.preventDefault();
-    await addNewsletter({
-      variables: {
-        email: name,
-      },
+    
 
-    });
     setName('');
   }
     
