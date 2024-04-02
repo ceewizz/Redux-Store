@@ -120,8 +120,7 @@ db.once('open', async () => {
         password: 'password12707',
         orders: [
             {
-                products: [products[0]._id, products[0]._id, products[1]._id, products[1]._id, products[2]._id, products[2]._id, products[3]._id, products[3]._id]
-            }
+                products: [products[0]._id, products[0]._id, products[1]._id]}
         ]
     });
 
