@@ -2,7 +2,7 @@
   "name": "redux-store",
   "version": "1.0.0",
   "description": "Module 22 challenge: Extra Credit Redux-Store",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "start": "node server --ignore client",
     "develop": "concurrently \"cd server && npm run start\" \"cd client && npm start\"",
