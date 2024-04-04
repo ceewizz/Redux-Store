@@ -21,7 +21,7 @@ import OrderHistory from './pages/OrderHistory';
 import Footer from './components/Footer';
 
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: 'mongodb+srv://ceewizzhuhwin:<password>@amakonstore.mjb85gs.mongodb.net/',
 });
 
 const authLink = setContext((_, { headers }) => {
