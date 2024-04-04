@@ -34,5 +34,8 @@ https://www.microcenter.com/
 #### Links
 Github Repo:  https://github.com/ceewizz/Redux-Store
 
-Deploy App:  https://amakonstore-4e9b57801cce.herokuapp.com
+Heroku App:  https://amakonstore-4e9b57801cce.herokuapp.com
+
+Render: https://redux-store-pl4h.onrender.com
+
 
