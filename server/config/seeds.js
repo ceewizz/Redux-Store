@@ -22,7 +22,7 @@ db.once('open', async () => {
         {
             name: 'Desktop G445',
             description: 'PowerSpec G445 Gaming PC Intel Core i9 12th Gen 12900K 3.2GHz Processor; NVIDIA GeForce RTX 4070 12GB GDDR6X; 32GB DDR4-3200 RAM; 1TB Solid State Drive',
-            image: 'family4.png',
+            image: 'desktop.jpg',
             category: categories[0]._id,
             price: 1499.00,
             quantity: 100
@@ -30,7 +30,7 @@ db.once('open', async () => {
         {
             name: 'Desktop Y60',
             description: 'IBuyPower Y60 Gaming PC Intel Core i9 14th Gen 14900KF 2.4GHz Processor; NVIDIA GeForce RTX 4070 Ti SUPER 16GB GDDR6X; 32GB DDR5-5600 RAM; 2TB Solid State Drive',
-            image: 'family7.png',
+            image: 'desktop1.jpg',
             category: categories[0]._id,
             price: 1999.00,
             quantity: 100
@@ -39,7 +39,7 @@ db.once('open', async () => {
         {
             name: 'Lenovo Legion Pro 5 16" Gaming Laptop Computer Platinum Collection - Onyx Grey',
             description: 'Intel Core i7 13th Gen 13700HX 1.5GHz Processor; NVIDIA GeForce RTX 4070 8GB GDDR6; 32GB DDR5-4800 RAM; 1TB Solid State Drive',
-            image: 'solo4.png',
+            image: 'laptop.jpg',
             category: categories[1]._id,
             price: 1199.00,
             quantity: 40
@@ -48,7 +48,7 @@ db.once('open', async () => {
         {
             name: 'Acer Predator Helios 16 PH16-71-91FL 16.0" Gaming Laptop Computer - Abyssal Black',
             description: 'Intel Core i9 13th Gen 13900HX 1.6GHz Processor; NVIDIA GeForce RTX 4080 12GB GDDR6; 32GB DDR5-5600 RAM; 2TB Solid State Drive',
-            image: 'solo7.png',
+            image: 'laptop1.jpg',
             category: categories[1]._id,
             price: 1899.00,
             quantity: 30
@@ -56,7 +56,7 @@ db.once('open', async () => {
         {
             name: 'Samsung Odyssey G9 S49CG954 49" 5K DQHD (5120 x 1440) 240Hz Curved Screen Monitor',
             description: 'AMD FreeSync Premium Pro; HDR; HDMI DisplayPort; CoreSync RGB Light',
-            image: 'group4.png',
+            image: 'monitor.jpg',
             category: categories[2]._id,
             price: 1199.00,
             quantity: 40  
