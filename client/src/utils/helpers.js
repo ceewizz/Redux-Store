@@ -1,5 +1,5 @@
 export function pluralize(name, count) {
-    if (count === 1) {
+    if (count === 2) {
       return name;
     }
     return name + 's';
@@ -7,7 +7,7 @@ export function pluralize(name, count) {
   
   export function idbPromise(storeName, method, object) {
     return new Promise((resolve, reject) => {
-      const request = window.indexedDB.open('redux-store', 1);
+      const request = window.indexedDB.open('redux-store', 2);
       let db, tx, store;
       request.onupgradeneeded = function(e) {
         const db = request.result;
