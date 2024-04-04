@@ -1,0 +1,25 @@
+.footer-row{
+    padding-top: 50px;
+}
+
+.input-box {
+    margin-bottom: 12px;
+    border-bottom: 4px darkblue solid;
+}
+
+.footer-container {
+    border-top: solid rgb(225, 200, 200);
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.left{
+    margin-left: 100px;
+  }
+  
+  .footer-button{
+  width: 150px;
+  }
+  .middle{
+    margin-top: 70px;  
+    padding-left: 65px;
+  }
