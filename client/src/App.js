@@ -5,6 +5,8 @@ import {
   InMemoryCache,
   ApolloProvider,
   createHttpLink,
+  MongoClient,
+  ServerApiVersion,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
@@ -19,6 +21,15 @@ import { StoreProvider } from './utils/GlobalState';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 import Footer from './components/Footer';
+
+
+
+
+
+
+
+
+const uri = "mongodb+srv://ceewizzhuhwin:<password>@amakonstore.mjb85gs.mongodb.net/?retryWrites=true&w=majority&appName=amakonstore";
 
 const httpLink = createHttpLink({
   uri: '/graphql',
