@@ -21,6 +21,7 @@ import { StoreProvider } from './utils/GlobalState';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 import Footer from './components/Footer';
+import User from './components/User';
 
 
 
@@ -29,7 +30,9 @@ import Footer from './components/Footer';
 
 
 
-const uri = "mongodb+srv://ceewizzhuhwin:<password>@amakonstore.mjb85gs.mongodb.net/?retryWrites=true&w=majority&appName=amakonstore";
+
+
+app.use(express.json({ extended: false })); mongoose.connect(uri, { useNewUrlParser: true,  useCreateIndex: true, useUnifiedTopology: true, });
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -52,6 +55,7 @@ const client = new ApolloClient({
 
 function App() {
   return (
+    
     <ApolloProvider client={client}>
       <Router>
         <div>
@@ -92,6 +96,8 @@ function App() {
             </Routes>
             <Footer />
           </StoreProvider>
+         
+
         </div>
       </Router>
     </ApolloProvider>
