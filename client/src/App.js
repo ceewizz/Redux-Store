@@ -32,7 +32,7 @@ import Footer from './components/Footer';
 
 
 
-app.use(express.json({ extended: false })); mongoose.connect(uri, { useNewUrlParser: true,  useCreateIndex: true, useUnifiedTopology: true, });
+
 
 const httpLink = createHttpLink({
   uri: '/graphql',
