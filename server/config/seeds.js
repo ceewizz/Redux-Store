@@ -23,7 +23,7 @@ db.once('open', async () => {
         {
             name: 'Desktop G445',
             description: 'PowerSpec G445 Gaming PC Intel Core i9 12th Gen 12900K 3.2GHz Processor; NVIDIA GeForce RTX 4070 12GB GDDR6X; 32GB DDR4-3200 RAM; 1TB Solid State Drive',
-            image: 'family4.png',
+            image: 'desktop.png',
             category: categories[0]._id,
             price: 1499.00,
             quantity: 100
