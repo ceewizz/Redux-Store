@@ -6,11 +6,21 @@ db.once('open', async () => {
     await Category.deleteMany();
 
     const categories = await Category.insertMany([
-        { name: 'DESKTOP COMPUTER' },
-        { name: 'LAPTOP' },
-        { name: 'MONITORS COMPUTER' },
-        { name: 'KEYBOARD/MOUSE'},
-        { name: 'PC PARTS'}
+        { 
+            "name": "DESKTOP COMPUTER" 
+        },
+        { 
+            "name": "LAPTOP" 
+        },
+        {
+            "name": "MONITORS COMPUTER" 
+        },
+        { 
+            "name": "KEYBOARD/MOUSE"
+        },
+        { 
+            "name": "PC PARTS"
+        }
    
     
     ]);
