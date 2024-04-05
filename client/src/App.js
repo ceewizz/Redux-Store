@@ -5,8 +5,7 @@ import {
   InMemoryCache,
   ApolloProvider,
   createHttpLink,
-  MongoClient,
-  ServerApiVersion,
+
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
