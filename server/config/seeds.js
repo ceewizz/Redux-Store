@@ -32,7 +32,7 @@ db.once('open', async () => {
         {
             name: 'Desktop G445',
             description: 'PowerSpec G445 Gaming PC Intel Core i9 12th Gen 12900K 3.2GHz Processor; NVIDIA GeForce RTX 4070 12GB GDDR6X; 32GB DDR4-3200 RAM; 1TB Solid State Drive',
-            image: 'desktop.jpg',
+            image: 'desktop.jpeg',
             category: categories[0]._id,
             price: 1499.00,
             quantity: 100
@@ -40,7 +40,7 @@ db.once('open', async () => {
         {
             name: 'Desktop Y60',
             description: 'IBuyPower Y60 Gaming PC Intel Core i9 14th Gen 14900KF 2.4GHz Processor; NVIDIA GeForce RTX 4070 Ti SUPER 16GB GDDR6X; 32GB DDR5-5600 RAM; 2TB Solid State Drive',
-            image: 'desktop1.jpg',
+            image: 'desktop1.jpeg',
             category: categories[0]._id,
             price: 1999.00,
             quantity: 100
@@ -58,7 +58,7 @@ db.once('open', async () => {
         {
             name: 'Acer Predator Helios 16 PH16-71-91FL 16.0" Gaming Laptop Computer - Abyssal Black',
             description: 'Intel Core i9 13th Gen 13900HX 1.6GHz Processor; NVIDIA GeForce RTX 4080 12GB GDDR6; 32GB DDR5-5600 RAM; 2TB Solid State Drive',
-            image: 'laptop1.jpg',
+            image: 'laptop1.jpeg',
             category: categories[1]._id,
             price: 1899.00,
             quantity: 30
