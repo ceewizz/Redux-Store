@@ -23,7 +23,7 @@ export function pluralize(name, count) {
       request.onsuccess = function(e) {
         db = request.result;
         tx = db.transaction(storeName, 'readwrite');
-        store = tx.objectStore(storeName);
+      store = tx.objectStore(storeName);
   
         db.onerror = function(e) {
           console.log('error', e);
@@ -48,9 +48,12 @@ export function pluralize(name, count) {
             break;
         }
   
-        tx.oncomplete = function() {
+     tx.oncomplete = function() {
           db.close();
         };
-      };
+      }
+    ;
     });
   }
+    
+  
