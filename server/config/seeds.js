@@ -32,7 +32,7 @@ db.once('open', async () => {
         {
             name: 'Desktop G445',
             description: 'PowerSpec G445 Gaming PC Intel Core i9 12th Gen 12900K 3.2GHz Processor; NVIDIA GeForce RTX 4070 12GB GDDR6X; 32GB DDR4-3200 RAM; 1TB Solid State Drive',
-            image: 'desktop.jpeg',
+            image: 'desktop.png',
             category: categories[0]._id,
             price: 1499.00,
             quantity: 100
@@ -40,7 +40,7 @@ db.once('open', async () => {
         {
             name: 'Desktop Y60',
             description: 'IBuyPower Y60 Gaming PC Intel Core i9 14th Gen 14900KF 2.4GHz Processor; NVIDIA GeForce RTX 4070 Ti SUPER 16GB GDDR6X; 32GB DDR5-5600 RAM; 2TB Solid State Drive',
-            image: 'desktop1.jpeg',
+            image: 'desktop1.png',
             category: categories[0]._id,
             price: 1999.00,
             quantity: 100
