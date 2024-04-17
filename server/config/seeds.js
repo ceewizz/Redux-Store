@@ -1,4 +1,4 @@
-
+import image1 from "../config/image/desktop.png";
 const db = require('./connection');
 const { User, Product, Category } = require('../models');
 
@@ -32,7 +32,7 @@ db.once('open', async () => {
         {
             name: 'Desktop G445',
             description: 'PowerSpec G445 Gaming PC Intel Core i9 12th Gen 12900K 3.2GHz Processor; NVIDIA GeForce RTX 4070 12GB GDDR6X; 32GB DDR4-3200 RAM; 1TB Solid State Drive',
-            image: 'desktop.png',
+            image: <img src={image1}  alt="desktop1" />,
             category: categories[0]._id,
             price: 1499.00,
             quantity: 100
