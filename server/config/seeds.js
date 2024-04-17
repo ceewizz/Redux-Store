@@ -80,41 +80,41 @@ db.once('open', async () => {
             quantity: 40   
         },
         {
-            name: 'Logitech Keyboard and Mouse Combo',
-            description: 'Logitech MX Keys S Combo Low-Profile Wireless Keyboard + MX Master 3S Wireless Mouse - (Black)',
-            image: 'kbmouse.jpg',
+            name: "Logitech Keyboard and Mouse Combo",
+            description: "Logitech MX Keys S Combo Low-Profile Wireless Keyboard + MX Master 3S Wireless Mouse - (Black)",
+            image: "kbmouse.jpg",
             category: categories[3]._id,
             price: 199.00,
             quantity: 50   
         },
         {
-            name: 'Cherry Keyboard and Mouse Combo',
-            description: 'Cherry DW 9500 Slim Wireless Keyboard and Mouse Combo - Black',
-            image: 'kbmouse1.jpg',
+            name: "Cherry Keyboard and Mouse Combo",
+            description: "Cherry DW 9500 Slim Wireless Keyboard and Mouse Combo - Black",
+            image: "kbmouse1.jpg",
             category: categories[3]._id,
             price: 119.00,
             quantity: 50   
         },
         {
-            name: 'Computer Speakers',
-            description: 'Edifier R1280T 2 Channel Stereo Powered Bookshelf Computer Speakers - Wood',
-            image: 'speaker.jpg',
+            name: "Computer Speakers",
+            description: "Edifier R1280T 2 Channel Stereo Powered Bookshelf Computer Speakers - Wood",
+            image: "speaker.jpg",
             category: categories[4]._id,
             price: 119.00,
             quantity: 50  
         },
         {
-            name: 'INTEL Bundle',
-            description: 'Intel Core i9-12900K, ASUS Z790-V Prime WiFi DDR5, G.Skill Ripjaws S5 32GB Kit DDR5 6000, Computer Build Bundled',
-            image: 'intel.jpg',
+            name: "INTEL Bundle",
+            description: "Intel Core i9-12900K, ASUS Z790-V Prime WiFi DDR5, G.Skill Ripjaws S5 32GB Kit DDR5 6000, Computer Build Bundled",
+            image: "intel.jpg",
             category: categories[4]._id,
             price: 399.00,
             quantity: 20
         },
         {
-            name: 'AMD Bundle',
-            description: 'AMD Ryzen 7 7800X3D, Gigabyte B650 Gaming X AX v2, G.Skill Flare X5 Series 32GB DDR5-6000 Kit, Computer Build Bundle',
-            image: 'amd.jpg',
+            name: "AMD Bundle",
+            description: "AMD Ryzen 7 7800X3D, Gigabyte B650 Gaming X AX v2, G.Skill Flare X5 Series 32GB DDR5-6000 Kit, Computer Build Bundle",
+            image: "amd.jpg",
             category: categories[4]._id,
             price: 499.00,
             quantity: 20
